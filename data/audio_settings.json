@@ -1,0 +1,27 @@
+{
+	"pattrstorage" : 	{
+		"name" : "audio_settings",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"det::enable" : [ 1 ],
+					"det::setup::1-hi" : [ 58.0 ],
+					"det::setup::1-lo" : [ 45.0 ],
+					"det::setup::2-hi" : [ 61.0 ],
+					"det::setup::2-lo" : [ 45.0 ],
+					"det::setup::3-hi" : [ 62.0 ],
+					"det::setup::3-lo" : [ 48.0 ],
+					"det::setup::4-hi" : [ 69.0 ],
+					"det::setup::4-lo" : [ 53.0 ],
+					"det::setup::min_lo_time" : [ 40.0 ],
+					"det::visualization::enable" : [ 1 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

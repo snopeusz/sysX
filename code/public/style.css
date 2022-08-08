@@ -1,0 +1,74 @@
+.simple {
+    color: red;
+}
+
+.centered2 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.centered {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, 0%);
+}
+
+#game_playafter_text {
+    font: bold 80px Veranda, Helvetica, Arial, sans-serif;
+    fill: #000;
+    text-anchor: middle;
+}
+
+#game_playafter_label {
+    font: normal 30px Veranda, Helvetica, Arial, sans-serif;
+    fill: #000;
+    text-anchor: end;
+}
+
+.show_game_sign {
+    transition: opacity 0s;
+    opacity: 1;
+}
+
+.hide_game_sign {
+    transition: opacity 1s;
+    opacity: 0;
+}
+
+.game_pitchpool_bar {
+    fill: #99b;
+    stroke: none;
+}
+
+.game_pitchpool_bar_black {
+    fill: #446;
+    stroke: none;
+}
+
+.game_pitchpool_background {
+    fill: #EAEAFF;
+    stroke: #AAB;
+    stroke-width: 3;
+    /* background-color: #aac; */
+}
+
+.game_pitchpool_pitchname {
+    font: bold 16px Veranda, Helvetica, Arial, sans-serif;
+    text-anchor: middle;
+}
+
+.game_pie_background {
+    fill: #EAEAFF;
+    stroke: #AAB;
+    stroke-width: 0.03;
+}
+
+.game_pie_arc {
+    fill: #AAB;
+    stroke: none;
+}

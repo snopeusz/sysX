@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script src="xebra.js"></script>
+    <script src="vexflow-min.js"></script>
+    <script src="NoSleep.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <!-- NoSleep.js - zapobiega wygaszaniu ekranu, może być przydatne
+        najlepiej podpiąć do przycisku dis/connect i aktywować przy nawiązaniu
+        połączenia z serwerem (ostatnia czynność wymagająca interakcji z przeglądarką)
+    -->
+</head>
+
+<body>
+    <nav>
+        <label id="select_instrument_label"> Instrument: </label>
+        <select id="select_instrument">
+            <option value=1>1. Flute</option>
+            <option value=2>2. Clarinet (B flat)</option>
+            <option value=3>3. Violin</option>
+            <option value=4>4. Cello</option>
+        </select>
+
+        <label for="hostaddrfield">Host:</label>
+        <input type="url" id="host_address" name="hostaddrfield" maxlength=20 value="-">
+        <label for="hostportfield">Port:</label>
+        <input type="number" id="host_port" name="hostportfield" value=0>
+        <input type='button' id="connect_button" value="Connect">
+        <label id="connected_label"> --- </label>
+
+    </nav>
+
+</body>
+<!-- kod ts/js musi być załadowany już po utworzeniu 
+wszystkich stałych elementów na stronie (navbar), ponieważ zakłada,
+że te elementy już są.
+-->
+<script src="sysxview.js"></script>
+<script src="sysxview_instant.js"></script>
+<script src="sysxview_text.js"></script>
+<script src="sysxview_test.js"></script>
+<script src="sysxview_game.js"></script>
+<script src="phrasebook.js"></script>
+<script src="sysxview_phrasebook.js"></script>
+<script src="sysxconnection.js"></script>
+
+<script src="index.js"></script>
+<!-- a -->
+
+</html>

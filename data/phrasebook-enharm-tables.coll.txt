@@ -1,0 +1,4 @@
+1, enharmonictable "n b n b n n b n b n b n";
+2, enharmonictable "n # n b n n # n # n b n";
+11, enharmonictable "n # n b n n # n b n b n";
+12, enharmonictable "n # n # n n # n # n # n";
